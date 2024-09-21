@@ -4,7 +4,6 @@ body {
     display: flex;
     flex-direction: row;
     min-height: 100vh;
-    min-width: 100vw;
 }
 
 nav {
@@ -29,11 +28,8 @@ main {
 }
 
 article {
-    flex-basis: calc(100vh - 200px);
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 
-div {
-    flex-basis: 85vw;
-    flex-grow: 0;
-    flex-shrink: 0;
-}

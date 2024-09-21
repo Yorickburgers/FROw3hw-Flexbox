@@ -3,13 +3,16 @@
 body {
     display: flex;
     flex-direction: column;
-    flex-basis: 100vh;
+    min-height: 100vh;
+    flex-grow: 1;
 }
 
 main {
     display: flex;
     flex-direction: row;
-    flex-basis: calc(100% - 200px);
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 
 footer, header {
@@ -31,7 +34,6 @@ aside, nav {
 main, nav, aside {
     flex-shrink: 0;
     flex-grow: 1;
-    height: calc(100vh - 200px);
 }
 
 nav {
