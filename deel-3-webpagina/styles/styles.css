@@ -32,7 +32,8 @@ main {
 
 h1, h3 {
     text-align: center;
-    margin: 10px
+    margin: 10px;
+    color: #030027;
 }
 
 h1 {
@@ -53,6 +54,7 @@ h1 {
     margin-left: 15px;
     margin-right: 15px;
     text-align: center;
+    color: #030027;
 }
 
 .articles {
@@ -67,8 +69,9 @@ h1 {
     margin-right: 40px;
 }
 
-p {
-    margin: 10px;
+.redbox p {
+    line-height: 1.5;
+    margin: 20px;
 }
 
 nav {
